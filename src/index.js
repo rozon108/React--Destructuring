@@ -35,6 +35,10 @@ ReactDOM.render(
 
 // const [honda, tesla] = cars;
 
+//NOTE: when destructing proerty of objects name has to match..
+//BUT IF U WANT we can rename
+//Below is called extensive destructuring
+//
 // const {
 //   speedStats: { topSpeed: hondaTopSpeed }
 // } = honda;

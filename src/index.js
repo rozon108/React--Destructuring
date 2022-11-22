@@ -12,13 +12,20 @@ ReactDOM.render(
     <tr>
       <th>Brand</th>
       <th>Top Speed</th>
+      <th>Top Color</th>
     </tr>
-    <tr>
-      <td>{tesla.model}</td>
-    </tr>
-    <tr>
-      <td>{honda.model}</td>
-    </tr>
+    <tbody>
+      <tr>
+        <td>{tesla.model}</td>
+        <td>{tesla.speedStats.topSpeed}</td>
+        <td>{tesla.coloursByPopularity[0]}</td>
+      </tr>
+      <tr>
+        <td>{honda.model}</td>
+        <td>{honda.speedStats.topSpeed}</td>
+        <td>{honda.coloursByPopularity[0]}</td>
+      </tr>
+    </tbody>
   </table>,
   document.getElementById("root")
 );
